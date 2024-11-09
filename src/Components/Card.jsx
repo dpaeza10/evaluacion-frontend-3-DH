@@ -4,12 +4,12 @@ function Card ({userName, hexColor}) {
 
 
     return(
-        <div class="cardContainer">
-            <p>Hola <span class="userName">{userName}</span>!</p>
+        <div className="cardContainer">
+            <p>Hola <span className="userName">{userName}</span>!</p>
             <p>Sabemos que tu color favorito es:</p>
             <div 
                 style={{ backgroundColor: hexColor}}
-                class="hexColorContainer"
+                className="hexColorContainer"
             >
                 {hexColor}
             </div>
