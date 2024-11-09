@@ -1,0 +1,24 @@
+.cardContainer{
+    border: 1px solid gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.userName{
+    font-weight: 700;
+}
+
+.cardContainer p{
+    width: 100%;
+    font-size: 16px;
+}
+
+.hexColorContainer{
+    padding: 10px;
+    border-radius: 5pc;
+    margin-top: 20px;
+}
